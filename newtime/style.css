@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Namdhinggo:wght@400;500;600;700;800&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+body{
+    /*background-color: #FFA500;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23C1A300'/%3E%3Cstop offset='1' stop-color='%23FFA500'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23000000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000000' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;*/
+/*background-image: url(https://is.zobj.net/image-server/v1/images?r=sY6Y15hOMTXsA460dR8Lmr3wGqmf_9q96zbO2a0o1Af0WswAfESQUZ1pWC7U8eE8niK28OtIMSCosUQRgE9J1oN5EgvRqa_iD0hkiGfyWh8oluhO0z94MdGNBWtVAowS-A1QIJ66YOsujkNQjS4t48reL_Fop41B2LQIGv8FUS9yIqGoI0YibMQ7fA9QA0CO7VSEi48P80-2H_hH5uHTvyMCVycnNarkI1fuc9amFFGxxOPQFE01hG-BTo8);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;*/
+background-image: url(img/img1.jpeg);
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.content{
+    margin: 20px;
+}
+.title{
+    margin: 50px 200px 10px 150px;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    color: white;
+}
+.content-logo{
+    margin: -130px 0 -40px 0;
+}
+.logo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -20px 0 -200 0;
+}
+.material-symbols-outlined{
+	position:fixed;
+	width:30px;
+	height:30px;
+	bottom:40px;
+	right:40px;
+	background-color:#808080;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.material-symbols-outlined:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.material-symbols-outlined{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/*introduccion*/
+
+.introduccion{
+    background-color: rgba(0,0,0,.4);
+    width: auto;
+    height: auto;
+    margin: 100px 150px 0px 150px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 5px #fff;
+    border: 2px solid white;
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+}
+
+.newtime{
+    color: white;
+    font-size: 50px;
+    margin: -10px 0 5px 0;
+    font-family: "Namdhinggo", serif;
+}
+.intro{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin: 40px auto;
+}
+.content-menu{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 30%;
+    box-shadow: 0 0 15px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    font-size: 30px;
+    margin: 50px auto;
+    font-family: "Namdhinggo", serif;
+}
+.cafe-title{
+    font-family: "Dancing Script", cursive;
+}
+.content-cafe{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 280px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:inside;
+}
+.lista-cafe li{
+    text-align: left; 
+    padding: 5px;
+    margin: 5px;
+}
+
+.precio1{
+    text-align: right;
+    position:fixed;
+    margin: -190px 900px 0px 820px;
+}
+
+.lista-precio li{
+    list-style: none;
+    margin: 10px;
+}
+.content-economico{
+   background-color: rgba(0,0,0,.4);
+   justify-content: center;
+   text-align: center;
+   color: black;
+   width: 70%;
+   height: 200px;
+   box-shadow: 10px 0 55px  black;
+   border: 2px solid white;
+   border-radius: 20px;
+   backdrop-filter: blur(5px);
+   font-size: 30px;
+   margin: 50px auto;
+   list-style:inside;
+}
+.title-economico{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+}
+ .lista2 li{
+    text-align: left;
+    margin: 50px 10px 0 10px;
+    font-size: 30px;
+ }
+ .precio2 li{
+    list-style: none;
+    margin:-30px 100px 0 800px;
+    font-size: 30px;
+ }
+ .content-clasico{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 200px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:inside;
+ }
+ .title-clasico{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+ }
+ .lista3 li{
+    text-align: left;
+    margin: 50px 10px 0 10px;
+    font-size: 30px;
+ }
+ .precio3 li{
+    list-style: none;
+    margin:-30px 100px 0 800px;
+    font-size: 30px;
+ }
+ .content-completo{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 260px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:none;
+ }
+ .title-completo{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+ }
+ #punto{
+    list-style: inside;
+    margin: auto 10px;
+ }
+ .lista4 li{
+    text-align: left;
+    margin:0px 50px 0 50px;
+    font-size: 30px;
+    list-style: none;
+ }
+ .precio4 li{
+    list-style: none;
+    margin:-100px 100px 0px 800px;
+    font-size: 40px;
+ }
+ .content-ligth{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 260px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:none;
+ }
+ .title-ligth{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+ }
+ #ligth{
+    list-style: inside;
+    margin: auto 10px;
+ }
+ .lista5 li{
+    text-align: left;
+    margin:0px 50px 0 50px;
+    font-size: 30px;
+    list-style: none;
+ }
+ .precio5 li{
+    list-style: none;
+    margin:-100px 100px 0px 800px;
+    font-size: 40px;
+ }
+ .content-bebidas{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 260px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:none;
+    
+ }
+ .title-bebidas{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+ }
+ .lista6 li{
+    text-align: left;
+    margin: 10px 10px 0 10px;
+    font-size: 30px;
+    list-style:inside;
+ }
+ .precio6 li{
+    list-style: none;
+    margin:-30px 800px -80px 800px;
+    font-size: 30px;
+ }
+ .content-acompañar{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 260px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:none;
+    
+ }
+ .title-acompañar{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+ }
+ .lista7 li{
+    text-align: left;
+    margin: 10px 10px 0 10px;
+    font-size: 30px;
+    list-style:inside;
+ }
+ .precio7 li{
+    list-style: none;
+    margin:-30px 800px -80px 800px;
+    font-size: 30px;
+ }
+ 
+ .licuado{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 50%;
+    height: 10rem;
+    box-shadow: 0 0 15px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    font-family: "Dancing Script", cursive;
+}
+.title-liciado{
+    margin: 50px auto;
+}
+.licuado ul{
+    margin: 30px auto;
+}
+
+ .content-minutas{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 300px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:none; 
+ }
+ .title-minutas{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+ }
+ .lista8 li{
+    text-align: left;
+    margin: 10px 10px 0 10px;
+    font-size: 30px;
+    list-style:inside;
+ }
+ .precio8 li{
+    list-style: none;
+    margin:-30px 800px -80px 800px;
+    font-size: 30px;
+ }
+ .content-promos{
+    background-color: rgba(0,0,0,.4);
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 180px;
+    box-shadow: 10px 0 55px  black;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+    margin: 50px auto;
+    list-style:none; 
+ }
+ .title-promos{
+    margin: 10px auto;
+    font-family: "Dancing Script", cursive;
+ }
+ .lista9 li{
+    text-align: left;
+    margin: 10px 10px 0 10px;
+    font-size: 30px;
+    list-style:inside;
+ }
+ .precio9 li{
+    list-style: none;
+    margin:-30px 800px -80px 800px;
+    font-size: 30px;
+ }
+
+
+
+
+/*responsivo*/
+   @media screen and (max-width:550px) {
+      body{
+          /*background-image: url(https://is.zobj.net/image-server/v1/images?r=sY6Y15hOMTXsA460dR8Lmr3wGqmf_9q96zbO2a0o1Af0WswAfESQUZ1pWC7U8eE8niK28OtIMSCosUQRgE9J1oN5EgvRqa_iD0hkiGfyWh8oluhO0z94MdGNBWtVAowS-A1QIJ66YOsujkNQjS4t48reL_Fop41B2LQIGv8FUS9yIqGoI0YibMQ7fA9QA0CO7VSEi48P80-2H_hH5uHTvyMCVycnNarkI1fuc9amFFGxxOPQFE01hG-BTo8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;*/
+  background-image: url(img/img1.jpeg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+      }
+      .content{
+          margin: 20px;
+      }
+      .title{
+          margin: 50px 200px 10px 150px;
+          font-size: 50px;
+          font-family: "Dancing Script", cursive;
+      }
+      .content-logo{
+          margin: -130px 0 -40px 0;
+      }
+      .logo{
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          margin: -20px 0 -200 0;
+      }
+      .introduccion{
+          width: 80%;
+          color: white;
+          margin: 100px 20px 20px 20px;
+          color: #fff;
+          text-align: center;
+          padding: 20px;
+          box-shadow: 0 0 5px #fff;
+          border: 2px solid white;
+          backdrop-filter: blur(100px);
+          border-radius: 20px;
+          background-color: rgba(0,0,0,.4);
+      }
+      .newtime{
+          color: white;
+          font-size: 50px;
+          margin: -10px 0 5px 0;
+          font-family: "Pacifico", cursive;
+      }
+      .intro{
+          color:white;
+          font-family: "Playfair Display", serif;
+          font-size: 20px;
+      }
+      .content-menu{
+         width: 300px;
+      }
+      .precio1{
+          margin: -190px 190px 0px 190px;
+          font-size: 30px;
+      }
+      .lista-cafe{
+          font-size: 25px;
+          margin: 20px auto;
+      }
+      .material-symbols-outlined{
+          position:fixed;
+          width: 20px;
+          height:20px;
+          bottom: 10px;
+          right:10px;
+          background-color:#808080;
+          color:#FFF;
+          border-radius:50px;
+          text-align:center;
+        font-size:30px;
+          box-shadow: 2px 2px 3px #999;
+        z-index:100;
+      }
+      .material-symbols-outlined{
+          padding: -20px;
+          text-decoration: none;
+          color: white;
+      }
+  
+      .content-cafe{
+          width: 80%;
+      }
+      .content-economico{
+          width: 80%;
+          height: 200px;
+      }
+      .lista2 li{
+          font-size: 25px;
+          margin: -5px auto;
+       }
+       .precio2 li{
+          margin: 20px 130px 20px 130px;
+          color: white;
+          font-size: 30px;
+       }
+       .lista3 li{
+          margin: -5px 5px -5px 5px;
+          font-size: 20px;
+       }
+       .precio3 li{
+          margin:20px 100px 20px 100px;
+          color: white;
+           font-size: 30px;
+       }
+       .content-completo{
+          width: 80%;
+          height: 360px;
+          margin: 50px auto;
+          
+       }
+       .title-completo{
+          margin: 10px auto;
+       }
+       #punto{
+          list-style: inside;
+          margin: auto 20px;
+       }
+       .lista4 li{
+          font-size: 25px;
+       }
+       .precio4 li{
+          list-style: none;
+          margin: 40px 100px 40px 100px;
+          font-size: 40px;
+       }
+       .content-ligth{
+          width: 80%;
+          height: 360px;
+       }
+       .lista5 li{
+          font-size: 25px;
+       }
+       .precio5 li{
+          list-style: none;
+          margin:40px 100px 40px 100px;
+          font-size: 40px;
+       }
+       .content-bebidas{
+          width: 80%;
+          height: 360px;
+       }
+       .lista6 li{
+          margin:40px 0 10px 0px;
+          font-size: 22px;
+       }
+       .precio6 li{
+          margin:-40px 230px -90px 230px;
+          font-size: 25px;
+       }
+       .content-acompañar{
+          background-color: rgba(0,0,0,.4);
+          justify-content: center;
+          text-align: center;
+          color: black;
+          width: 70%;
+          height: 260px;
+          box-shadow: 10px 0 55px  black;
+          border: 2px solid white;
+          border-radius: 20px;
+          backdrop-filter: blur(5px);
+          font-size: 30px;
+          margin: 50px auto;
+          list-style:none;
+          
+       }
+       .title-acompañar{
+          margin: 10px auto;
+          font-family: "Dancing Script", cursive;
+       }
+       .lista7 li{
+          text-align: left;
+          margin: 20px 10px 0 10px;
+          font-size: 20px;
+          list-style:inside;
+       }
+       .precio7 li{
+          list-style: none;
+          margin:-30px 200px -70px 200px;
+          font-size: 25px;
+       }
+       
+       .licuado{
+          background-color: rgba(0,0,0,.4);
+          justify-content: center;
+          text-align: center;
+          color: black;
+          width: 80%;
+          height: 12rem;
+          box-shadow: 0 0 15px  black;
+          border: 2px solid white;
+          border-radius: 20px;
+          backdrop-filter: blur(5px);
+          font-size: 30px;
+          margin: 50px auto;
+          font-family: "Dancing Script", cursive;
+      }
+      .title-liciado{
+          margin: 50px auto;
+      }
+      .licuado ul{
+          margin: 30px auto;
+      }
+      
+       .content-minutas{
+          background-color: rgba(0,0,0,.4);
+          justify-content: center;
+          text-align: center;
+          color: black;
+          width: 90%;
+          height: 380px;
+          box-shadow: 10px 0 55px  black;
+          border: 2px solid white;
+          border-radius: 20px;
+          backdrop-filter: blur(5px);
+          font-size: 30px;
+          margin: 50px auto;
+          list-style:none; 
+       }
+       .title-minutas{
+          margin: 10px auto;
+          font-family: "Dancing Script", cursive;
+       }
+       .lista8 li{
+          margin: 20px 10px 0 10px;
+          font-size: 25px;
+       }
+       .precio8 li{
+          list-style: none;
+          margin:-30px 270px -85px 270px;
+          font-size: 30px;
+       }
+       .content-promos{
+          background-color: rgba(0,0,0,.4);
+          justify-content: center;
+          text-align: center;
+          color: black;
+          width: 90%;
+          height: 200px;
+          box-shadow: 10px 0 55px  black;
+          border: 2px solid white;
+          border-radius: 20px;
+          backdrop-filter: blur(5px);
+          font-size: 30px;
+          margin: 50px auto;
+          list-style:none; 
+       }
+       .title-promos{
+          margin: 10px auto;
+          font-family: "Dancing Script", cursive;
+       }
+       .lista9 li{
+          text-align: left;
+          margin: 20px 10px 0 10px;
+          font-size: 20px;
+          list-style:inside;
+       }
+       .precio9 li{
+          list-style: none;
+          margin:-30px 300px -70px 300px;
+          font-size: 25px;
+       }
+      
+  }
+  
+@media screen and (max-width:400px) {
+   .content-completo{
+      width: 80%;
+      height: 380px;
+   }
+   .content-ligth{
+      height: 380px;
+   }
+   .precio6 li{
+      margin:-40px 220px -90px 220px;
+   } 
+   .content-acompañar{
+      height: 380px;
+      width: 80%;
+   }
+   .lista7 li{
+      font-size: 25px;
+      margin: 40px auto;
+   }
+   .precio7 li{
+      margin:-75px 190px -100px 190px;
+   }
+   .licuado{
+      width: 80%;
+      height: auto;
+   }
+   .content-minutas{
+      width: 98%;
+      height: 380px;
+   }
+   .lista8 li{
+      font-size: 25px;
+      margin: 20px auto;
+   }
+   .precio8 li{
+      margin: -50px 260px -70px 260px;
+      font-size: 20px;
+   }
+   .content-promos{
+      width: 90%;
+      height: 360px;
+   }
+   .lista9 li{
+      font-size: 25px;
+      margin: 0px 0px 100px 0px;
+   }
+   .precio9 li{
+      margin: -80px 100px -150px 100px;
+   }
+}
